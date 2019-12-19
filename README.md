@@ -1,4 +1,4 @@
-# Weru's Snowflake 77
+# weruSnowflake77
 
 weruSnowflake77 is a 77-city TSP problem with an average NEOS concorde runtime of 7.24 minutes using the fixed seed and QSopt solver.
 
