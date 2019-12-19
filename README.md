@@ -4,7 +4,7 @@ weruSnowflake77 is a 77-city TSP problem with an average NEOS concorde runtime o
 
 I created this instance while trying to understand which local and global characteristics impose an upward pressure on the amount of time concorde takes to match its running lower bound with the length of its shortest found tour.
 
-To construct this particular instance, I began with a base graph (13 x 13 square), and then systematically introduced new points or translated old points, retaining the adjustments that appeared to make concorde go deeper into its branches on average before cutting. Computer scientists modify TSP problems using relaxations to help construct good lower bounds, so I decided to go the opposite way and modify existing tours to construct a tour with hard to find lower bounds.
+To construct this instance, I began with a base graph (13 x 13 square), and then systematically introduced new points or translated old points, retaining the adjustments that appeared to make concorde go deeper into its branches on average before cutting. We modify TSP problems using relaxations to help construct good lower bounds, so I decided to go the opposite way and modify an existing graph to construct a graph with hard to find lower bounds.
 
 ## Problem set files:
  - weruSnowflake77.txt (x-y list file, L2 norm)
